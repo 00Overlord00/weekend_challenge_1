@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<charset = "utf-8">
+  <html>
+  <head>
+    <script src = "script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <img src = 'images/umbrella_logo_2.jpg' alt = 'Umbrella Letterhead' id = 'letterHead'>
+      <h4>Asset Management Interface v. 1.0.0</h4>
+        <div id = 'entryForm'>
+          <p id = 'nameOne'>First Name</p><input type = "text" id = "firstName" value = "">
+          <p id = 'nameTwo'>Last Name</p><input type = "text" id = "lastName" value = "">
+          <p id = 'identNum'>ID #</p><input type = "text" id = "idNumber" value = "">
+          <p id = 'salary'>Salary(Annual)</p><input type = "text" id = "annualSalary" value = "">
+          <button onclick = "addEmployee()" id = 'addEmp'>Submit</button>
+        </div>
+
+  <h4 id = 'employee'>Current Viable Assets</h4>
+    <div id = 'outputDiv'></div>
+
+<h4 id = 'payroll'>Monthly Payroll Cost:</h4>
+    <div id = 'cashBox'></div>
+  </body>
+  </html>

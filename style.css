@@ -1,0 +1,70 @@
+body {
+  background-image: url(images/umbrella_logo_1.jpg);
+  background-color: black;
+  color: white;
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;;
+}
+
+input {
+  background-color: black;
+  border: none;
+  box-shadow: none;
+  color: red;
+  margin-top: none;
+  padding: none;
+  shadow: none;
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  width: 200px;
+  height: 20px;
+  font-size: medium;
+}
+
+h4 {
+  color: white;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+}
+p {
+  color: white;
+  padding-bottom: none;
+  margin-bottom: none;
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+}
+
+div#outputDiv {
+  width: 600;
+  color: red;
+  background-color: black;
+  margin-left: 15px;
+  padding-bottom: 100px;
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  padding-bottom: 10px;
+  right: 50px;
+}
+
+#cashBox {
+  width: 600;
+  color: red;
+  background-color: black;
+  margin-left: 15px;
+  padding-bottom: 100px;
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+}
+
+h2 {
+  color: red;
+  text-decoration: underline;
+  font-family: font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;;
+  font: 'Goudy Old Style';
+}
+
+button#addEmp {
+  background-color: black;
+  color: red;
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  border-color: darkgrey;
+  padding-left: 5;
+  width: 10;
+  height: 5;
+}
