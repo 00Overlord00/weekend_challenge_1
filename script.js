@@ -21,7 +21,7 @@ var annualSpending = 0.0;
 
         annualSpending += Number(annualSalary);
         parseFloat(annualSpending);
-          document.getElementById( 'cashBox' ).innerHTML = annualSpending;
+          document.getElementById( 'cashBox' ).innerHTML = annualSpending / 12;
         //Push employee onto array of employees
         allEmployees.push(employee);
 
